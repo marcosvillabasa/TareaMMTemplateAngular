@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.logo_h img{
+  width: 180px;
+}
+@media (max-width: 420px) {
+  .logo_h img{
+    display: none;
+  }
+}
