@@ -1,0 +1,18 @@
+<h4 class="m-3 text-center">Mostrar user desde JSONPlaceholder mediante un servicio</h4>
+<hr>
+
+<div class="container">
+  <div class="card-columns">
+
+    <div class="card p-3 "  *ngFor="let usuario of usuarios; let i = index">
+      <blockquote class="blockquote mb-0 card-body">
+        <p>Datos Users</p>
+        <p class="small">Nombre: {{usuario.name}}</p>
+        <p class="small">{{usuario.email}}</p>
+        <p class="small">Id: {{usuario.id}}</p>
+      </blockquote>
+    </div>
+
+
+  </div>
+</div>
